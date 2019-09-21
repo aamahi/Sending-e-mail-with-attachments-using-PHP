@@ -1,10 +1,10 @@
 <?php 
 $to = "amahi.wp@gmail.com";
-$from="wedevs@example.com";
-$subject = "Web Application Develoaper\n";
-$mainMessage ="Softwear Engineer\r\n";
-$fileName="./mahi.pdf";
-$fileNewName ="cv.pdf";
+$from="mailattach@example.com";
+$subject = "William Shakespeare Poems\n";
+$mainMessage ="A Small poems book of William Shakespeare.\r\n";
+$fileName="./william_shakespeare.pdf";
+$fileNewName ="book.pdf";
 
 $fileData = file_get_contents($filename);
 $boundary = "Hear is Boundary";
@@ -35,3 +35,4 @@ if(!$mailsend){
 }else {
     echo "Mail send Sucessfully\n";
 }
+//happy codeing.
